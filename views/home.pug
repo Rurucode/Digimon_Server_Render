@@ -1,0 +1,12 @@
+doctype html
+html
+   head
+      title Digimon.
+      link(rel="stylesheet", href="./styles/style.css")
+   body
+      h1 Tu digimon elegido es #{nombre}
+      form#findDigimon(action="/" method="post")
+         label(for="buscador") Busca tu Digimon favorito.
+         input#buscador(type="text" name="buscador")
+         input(type="submit", value="Buscar Digimon") 
+

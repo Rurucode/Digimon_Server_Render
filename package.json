@@ -1,0 +1,27 @@
+{
+  "name": "Node_Express_Template",
+  "version": "1.0.0",
+  "description": "Base MERN project template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rurucode/Node_Express_Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rurucode/Node_Express_Template/issues"
+  },
+  "homepage": "https://github.com/Rurucode/Node_Express_Template#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.6",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
+  }
+}
